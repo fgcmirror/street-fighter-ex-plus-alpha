@@ -1,0 +1,37 @@
+{
+  "slug": "street-fighter-ex-plus-alpha",
+  "title": "Street Fighter EX plus α",
+  "category": "official-game",
+  "original_url": "http://www.arika.co.jp/product/ex_plus_a/index.html",
+  "original_host": "www.arika.co.jp",
+  "original_scope": "/product/ex_plus_a/",
+  "capture_mode": "wayback",
+  "primary_snapshot": "20150419034340",
+  "primary_snapshot_url": "https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/index.html",
+  "live_fetched_at": null,
+  "complementary_snapshots": [
+    {
+      "ts": "20020223232037",
+      "asset": "data/main.css"
+    },
+    {
+      "ts": "20011206125512",
+      "asset": "data/product.css"
+    },
+    {
+      "ts": "20150419034340",
+      "asset": "product/ron/img/0_chara.gif"
+    },
+    {
+      "ts": "20150419034340",
+      "asset": "product/ron/img/0_return.gif"
+    }
+  ],
+  "missing_assets": [
+    "arika/expa_back.gif"
+  ],
+  "captured_at": "2026-05-16T07:51:34.105564Z",
+  "tool": "wget",
+  "scope_notes": "",
+  "notes": ""
+}

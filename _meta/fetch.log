@@ -1,0 +1,116 @@
+--2026-05-16 04:51:13--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/index.html
+Resolving web.archive.org (web.archive.org)... 207.241.237.3
+Connecting to web.archive.org (web.archive.org)|207.241.237.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5625 (5.5K) [text/html]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/index.html’
+
+     0K .....                                                 100%  671M=0s
+
+2026-05-16 04:51:14 (671 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/index.html’ saved [5625/5625]
+
+--2026-05-16 04:51:15--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/data/product.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20150413094923id_/http://www.arika.co.jp/data/product.css [following]
+--2026-05-16 04:51:15--  https://web.archive.org/web/20150413094923id_/http://www.arika.co.jp/data/product.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-16 04:51:16 ERROR 404: Not Found.
+
+--2026-05-16 04:51:16--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/data/main.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20150413094922id_/http://www.arika.co.jp/data/main.css [following]
+--2026-05-16 04:51:17--  https://web.archive.org/web/20150413094922id_/http://www.arika.co.jp/data/main.css
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-16 04:51:17 ERROR 404: Not Found.
+
+--2026-05-16 04:51:18--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/img/title.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20140720021224id_/http://www.arika.co.jp/product/ex_plus_a/img/title.gif [following]
+--2026-05-16 04:51:19--  https://web.archive.org/web/20140720021224id_/http://www.arika.co.jp/product/ex_plus_a/img/title.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17257 (17K) [image/gif]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/title.gif’
+
+     0K .......... ......                                     100% 75.1M=0s
+
+2026-05-16 04:51:20 (75.1 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/title.gif’ saved [17257/17257]
+
+--2026-05-16 04:51:20--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/chara.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20150418234656id_/http://www.arika.co.jp/product/ex_plus_a/chara.html [following]
+--2026-05-16 04:51:21--  https://web.archive.org/web/20150418234656id_/http://www.arika.co.jp/product/ex_plus_a/chara.html
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8785 (8.6K) [text/html]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/chara.html’
+
+     0K ........                                              100% 2.05G=0s
+
+2026-05-16 04:51:21 (2.05 GB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/chara.html’ saved [8785/8785]
+
+--2026-05-16 04:51:22--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ron/img/0_chara.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20151005122325id_/http://www.arika.co.jp/product/ron/img/0_chara.gif [following]
+--2026-05-16 04:51:23--  https://web.archive.org/web/20151005122325id_/http://www.arika.co.jp/product/ron/img/0_chara.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 101 [image/gif]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ron/img/0_chara.gif’
+
+     0K                                                       100% 48.2M=0s
+
+2026-05-16 04:51:27 (48.2 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ron/img/0_chara.gif’ saved [101/101]
+
+--2026-05-16 04:51:28--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/img/ph01.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20140720052641id_/http://www.arika.co.jp/product/ex_plus_a/img/ph01.gif [following]
+--2026-05-16 04:51:29--  https://web.archive.org/web/20140720052641id_/http://www.arika.co.jp/product/ex_plus_a/img/ph01.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21747 (21K) [image/gif]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph01.gif’
+
+     0K .......... .......... .                               100% 12.6M=0.002s
+
+2026-05-16 04:51:29 (12.6 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph01.gif’ saved [21747/21747]
+
+--2026-05-16 04:51:30--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/img/ph02.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20140720072047id_/http://www.arika.co.jp/product/ex_plus_a/img/ph02.gif [following]
+--2026-05-16 04:51:31--  https://web.archive.org/web/20140720072047id_/http://www.arika.co.jp/product/ex_plus_a/img/ph02.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21693 (21K) [image/gif]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph02.gif’
+
+     0K .......... .......... .                               100% 71.8M=0s
+
+2026-05-16 04:51:31 (71.8 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph02.gif’ saved [21693/21693]
+
+--2026-05-16 04:51:32--  https://web.archive.org/web/20150419034340id_/http://www.arika.co.jp/product/ex_plus_a/img/ph03.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://web.archive.org/web/20140720023007id_/http://www.arika.co.jp/product/ex_plus_a/img/ph03.gif [following]
+--2026-05-16 04:51:33--  https://web.archive.org/web/20140720023007id_/http://www.arika.co.jp/product/ex_plus_a/img/ph03.gif
+Reusing existing connection to web.archive.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24061 (23K) [image/gif]
+Saving to: ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph03.gif’
+
+     0K .......... .......... ...                             100%  143M=0s
+
+2026-05-16 04:51:34 (143 MB/s) - ‘/Users/paulomanrique/Code/fgcmirror/sites/street-fighter-ex-plus-alpha/.cache/wget/web.archive.org/web/20150419034340id_/http:/www.arika.co.jp/product/ex_plus_a/img/ph03.gif’ saved [24061/24061]
+
+FINISHED --2026-05-16 04:51:34--
+Total wall clock time: 20s
+Downloaded: 7 files, 97K in 0.002s (40.6 MB/s)

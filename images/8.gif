@@ -1,0 +1,630 @@
+<!DOCTYPE HTML>
+
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="株式会社アリカの公式ホームページです。
+    当社は家庭用、業務用、スマートフォン向けの様々なゲームソフトを開発しています。">
+	<meta name="keywords" content="株式会社アリカ,アリカ,ARIKA,ゲーム">
+	<title>アリカホームページ</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+    <link href="lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery.smoothscroll.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/lightbox.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	$(window).load(function() {
+	if ($('#spMenu').css('display') == 'block') {
+	$('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 10, headerfix : $('header')});
+	} else {
+	$('html').smoothscroll({easing : 'swing', speed : 1000, margintop : 10, headerfix : $('nav')});
+	}
+	<!--------------------　flexsliderセットアップ　-------------->
+	$('.flexslider').flexslider({
+	    animation: "slide",			/* エフェクトの種類 スライド */
+	    pauseOnHover: true,			/* 画像やボタンにマウスオーバーした時にスライドを停止する */
+	    slideshowSpeed: 5000,		/* 次の画像に切り替わるまでの時間 5000ミリ秒 */
+	    animationSpeed: 500,		/* エフェクトのスピード 500ミリ秒 */
+	    easing: 'easeInOutQuart',	/* イージング easeInOutQuart */
+		directionNav: false			/* 両サイドのコントロールボタンの表示設定 */
+	});
+	<!--------------------　topボタンのセットアップ　------------->
+	$(document).ready(function() {
+  	  var pagetop = $('.pagetop');
+    	$(window).scroll(function () {
+       	if ($(this).scrollTop() > 50) {
+        	    pagetop.fadeIn();
+       	} else {
+            	pagetop.fadeOut();
+            	}
+       	});
+       	pagetop.click(function () {
+           	$('body, html').animate({ scrollTop: 0 }, 500); /* スクロールの速度 */
+              	return false;
+   	  });
+	});
+	
+	});	 
+	</script>
+</head>
+
+<body>
+
+<div id="container">
+<div class="wrap">
+
+<!--------------------　ヘッダー　----------------------------> 
+
+<header>
+	<div class="inner">
+		<h1><a href="index.html"><img src="material/logo_arika.png" alt="サイト名"></a>
+        <img src="material/chara_knitty.png" width="40" height="50">
+        </h1>
+		
+	  <p class="summary">
+      	<a href="https://twitter.com/arika_co_jp" target="_blank">
+        <i class="fa-brands fa-x-twitter fa-2x font_orange"></i></a>
+        <a href="https://www.facebook.com/co.arika" target="_blank">
+        <i class="fab fa-facebook-square fa-2x font_orange"></i></a>
+        <a href="index_en.html"><i class="fas fa-globe-americas fa-2x font_orange"></i></a>
+      </p>
+	</div><!-- /.inner -->
+</header>
+
+<main>
+
+<!--------------------　ナビゲーション　----------------------> 
+
+
+<div id="spMenu"><span id="navBtn"><span id="navBtnIcon"></span></span></div>
+<nav>
+	<div class="inner">
+		<ul class="gnav">
+            <li class="subnav"><a href="index.html">Home</a>
+			<ul>
+				<li><a href="notice/notice_jp.html#anchor1">ご利用規約</a></li>
+				<li><a href="notice/notice_jp.html#anchor2">プライバシーポリシー</a></li>
+				<li><a href="notice/notice_jp.html#anchor3">お問い合わせ</a></li>
+				<li><a href="index_en.html"><i class="fas fa-globe"></i> English</a></li>
+			</ul>
+			</li>			
+			
+            <li><a href="news/news_jp.html">ニュース</a></li>
+           
+            <li class="subnav"><a href="game/game_jp.html">開発実績</a>
+			<ul>
+				<li><a href="game/game_jp.html#anchor1">家庭用ゲーム</a></li>
+				<li><a href="game/game_jp.html#anchor2">モバイル用ゲーム</a></li>
+				<li><a href="game/game_jp.html#anchor3">業務用ゲーム</a></li>
+				<li class="subnav"><a href="game/related_jp.html">関連商品</a>
+               	<ul>
+					<li><a href="game/related_jp.html#anchor1">書籍</a></li>
+					<li><a href="game/related_jp.html#anchor2">音楽,ドラマCD</a></li>
+					<li><a href="game/related_jp.html#anchor3">DVD,ビデオ</a></li>
+                    <li><a href="game/related_jp.html#anchor4">その他</a></li>
+				</ul>
+                </li>
+			</ul>
+			</li>
+			
+            <li class="subnav"><a href="company/company_jp.html">会社情報</a>
+			<ul>
+				<li><a href="company/company_jp.html#anchor1">トップメッセージ</a></li>
+				<li><a href="company/company_jp.html#anchor2">アリカについて</a></li>
+				<li><a href="company/company_jp.html#anchor3">会社概要</a></li>
+				<li><a href="company/company_jp.html#anchor4">会社案内のダウンロード</a></li>
+			</ul>
+			</li>
+			
+            <li class="subnav"><a href="recruit/recruit_jp.html">採用情報</a>
+			<ul>
+				<li><a href="recruit/recruit_jp.html#anchor1">募集内容</a></li>
+				<li><a href="recruit/recruit_jp.html#anchor2">待遇など</a></li>
+				<li><a href="recruit/recruit_jp.html#anchor3">応募･選考要項について</a></li>
+				<li><a href="recruit/recruit_jp.html#anchor4">採用に関するお問い合わせ</a></li>
+			</ul>
+			</li>			
+            
+            <li><a href="goods/goods_jp.html">グッズ販売</a></li>            
+            
+            <li class="subnav"><a href="special/sp_wallpaper/wallpaper_jp.html">Special</a>
+			<ul>
+				<li><a href="special/sp_wallpaper/wallpaper_jp.html">壁紙ダウンロード</a></li>
+				<li><a href="special/sp_interview/interview_jp.html">インタビュー</a></li>
+                <li><a href="special/sp_material/material_jp.html">素材置き場</a></li>
+			</ul>
+			</li>                          
+		</ul>
+	</div><!-- /.inner -->
+</nav>
+
+<!--------------------　スライドの表示エリア　------------------------>
+
+<div class="inner">
+
+<div class="flexslider">
+  <ul class="slides">
+    <li><a href="product/fexl_hp/jp/fexl_jp.html" target="_blank">
+    	<img src="material/img_jp_top6.jpg"></a></li>  
+  	<li><a href="https://line.me/S/sticker/13385310" target="_blank">
+    	<img src="material/img_jp_top5.jpg"></a></li>
+    <li><a href="product/fexl_hp/jp/fexl_jp.html" target="_blank">
+    	<img src="material/img_jp_top0.jpg"></a></li>	
+	<li><a href="product/pitapat/index.html" target="_blank">
+    	<img src="material/img_jp_top2.jpg"></a></li>
+	<li><a href="goods/goods_jp.html"><img src="material/img_jp_top3.jpg"></a></li>
+	<li><a href="special/sp_wallpaper/wallpaper_jp.html"><img src="material/img_jp_top4.jpg"></a></li>
+  </ul>
+</div><!-- /.flexslider -->
+
+
+<!--------------------　お知らせ＆曜日表示　-------------------------->
+
+<div id="contents">
+
+<div id="c_main">
+	<h2 id="news"><i class="far fa-newspaper"></i> ニュース</h2>
+	<div class="ibox">
+    <iframe src="info_jp/top-umekomi.php" width="700" height="300" frameborder="0" scrolling="auto"></iframe>
+    </div><!-- /.ibox -->
+</div><!-- /#c_main -->
+
+
+<div id="c_sub">
+
+<!-- 曜日によって画像を変えるスクリプト --> 
+	<script language="JavaScript">
+ 	<!--
+ 	var ima = new Date();
+ 	var hi = ima.getDay();
+ 	var e = new Array(7);
+ 	e[0] = "<IMG src= 'material/img_week1.gif'>";
+ 	e[1] = "<IMG src= 'material/img_week2.gif'>";
+ 	e[2] = "<IMG src= 'material/img_week3.gif'>";
+ 	e[3] = "<IMG src= 'material/img_week4.gif'>";
+ 	e[4] = "<IMG src= 'material/img_week5.gif'>";
+ 	e[5] = "<IMG src= 'material/img_week6.gif'>";
+ 	e[6] = "<IMG src= 'material/img_week7.gif'>"; 
+ 	document.write(""+e[hi]);
+ 	//-->
+ 	</script>
+<!-- 曜日によって画像を変えるスクリプト -->   
+
+</div><!-- /#c_sub -->
+
+<br clear="both"><br>
+
+<div class="main_box">
+
+<!--------------------　ピックアップ　-------------------------------->
+
+<h2><i class="far fa-check-square"></i> ピックアップ情報</h2>
+
+<div class="card_box">
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_calendar.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>ダウンロード</p></div>
+	  <div class="date"><span class="day">2023.12.25</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>1-2月壁紙カレンダーの配布を開始しました</h1>
+		<div class="text">
+		<p>アリカオリジナル壁紙カレンダーの配布を開始しました。<br>
+		<br>
+		絵柄は隔月毎に更新して参りますので、どうぞお楽しみに!!</p>
+        <br>
+        <br>
+        <br>
+        <br>
+		<br>
+        <br>
+		<br>
+		<br>
+	    <br>
+		<a href="special/sp_wallpaper/wallpaper_jp.html" class="">
+        ダウンロードページ</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_goods.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>グッズ</p></div>
+	  <div class="date"><span class="day">2023.10.23</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>新商品を追加しました</h1>
+		<div class="text">
+		<p>「BOOTH」ARIKAショップにカイリ・訃（しらせ）・ガルダ・ほくとの新製品を追加しました。<br>
+		<br>
+		各キャラの缶バッジやオリジナルコースターをご用意しておりますので、ぜひご利用ください。</p>
+		<br>
+        <br>
+        <br>
+        <br>
+        <br>
+		<br>
+		<br>
+	    <br>
+		<a href="goods/goods_jp.html" class="">
+        グッズ販売</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_news.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>プレス<br>リリース</p></div>
+	  <div class="date"><span class="day">2023.2.6</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>「鉄拳」シリーズにおける開発業務請負に関するお知らせ</h1>
+		<div class="text">
+		<p>ゲーム開発を業務とする株式会社アリカ（本社：東京都品川区、代表取締役社長：
+        西谷 亮）は、このたび、「鉄拳」シリーズ（発売元：株式会社バンダイナムコエンター
+        テインメント）を開発する株式会社バンダイナムコスタジオ（以下：バンダイナムコスタジオ）
+        と、「鉄拳」シリーズへの開発業務の請負について合意いたしました。<br>
+        <br>
+		今後、当社の技術的な知見を活用し、「鉄拳」シリーズの開発に携わってまいります。<br>
+		<br>
+        <a href="news/press-release/arika-release_20230206.pdf" target="_blank" class="">
+        続きはこちら</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_news.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>プレス<br>リリース</p></div>
+	  <div class="date"><span class="day">2022.4.1</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>民事訴訟に関するお知らせ</h1>
+		<div class="text">
+		<p>2021/12/17にご報告させていただきました弊社及び弊社役員に対しての脅迫事件につきまして、
+        3/31に東京地裁へ訴状を提出いたしましたのでご報告させていただきます。<br>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_news.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>プレス<br>リリース</p></div>
+	  <div class="date"><span class="day">2021.12.17</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>損害賠償請求に関するお知らせ</h1>
+		<div class="text">
+		<p>10/25にご報告させていただきました弊社及び弊社役員に対しての脅迫事件の民事損害賠償請求
+        を行うことにしましたのでご報告させていただきます。<br>
+		<br>
+		<br>
+		<br>
+        <br>
+        <br>
+        <br>
+		<br>
+        <br>
+		<br>
+	    <br>
+		<a href="news/press-release/arika-release_20211217.pdf" target="_blank" class="">
+        続きはこちら</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_news.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>プレス<br>リリース</p></div>
+	  <div class="date"><span class="day">2021.10.25</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>弊社への脅迫事件に関するお知らせ</h1>
+		<div class="text">
+		<p>弊社及び弊社役員に対しての脅迫事件についてお知らせします。<br>
+		<br>
+		2019年9月3日、弊社Web窓口宛に弊社への危害予告及び役員の殺害をほのめかす内容の通知があり、
+        同日中に警察に被害届を提出し、捜査協力の為この内容を非公開にしておりました。</p>
+        ...<br>
+        <br>
+        <br>
+		<br>
+	    <br>
+		<a href="news/press-release/arika-release_20211025.pdf" target="_blank" class="">
+        続きはこちら</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_interview.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>インタビュー</p></div>
+	  <div class="date"><span class="day">2021.6.25</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>FIGHTING EX LAYER ANOTHER DASHのインタビューを公開しました</h1>
+		<div class="text">
+		<p>	FIGHTING EX LAYERシリーズの最新作「FIGHTING EX LAYER ANOTHER DASH」のリリースを
+        記念して、スタッフに開発にまつわる話を色々と伺いました。<br>
+		ぜひご覧ください。
+        <br>
+        <br>
+        <br>
+		<br>
+		<a href="special/sp_interview/interview_jp.html" class="">
+        インタビューページ</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_fexlad.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>ゲーム</p></div>
+	  <div class="date"><span class="day">2021.4.1</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>FIGHTING EX LAYER ANOTHER DASHをリリースしました</h1>
+		<div class="text">
+		<p>Nintendo Switchにて、FIGHTING EX LAYERシリーズの最新作「FIGHTING EX LAYER 
+        ANOTHER DASHをリリースしました。<br>
+		<br>
+		まずは日本と香港からのリリースとなります。
+        ゲームは無償となっておりますので、是非お試しください。</p>
+        <br>
+        <br>
+		<a href="https://store-jp.nintendo.com/list/software/70010000037749.html" 
+        target="_blank" class="">
+        Nintendo Store</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_line_jp.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>グッズ</p></div>
+	  <div class="date"><span class="day">2020.11.1</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>FIGHTING EX LAYERのLINEスタンプが登場！</h1>
+		<div class="text">
+		<p>「FIGHTING EX LAYER」LINEスタンプの販売を開始しました<br>
+		<br>
+		ゲームのキャラクター達が皆さんの会話を可愛くサポート！<br>
+		ぜひご利用ください。</p>
+        <br>
+        <br>
+		<br>
+		<br>
+		<a href="https://line.me/S/sticker/13385310" class="" target="_blank">
+        LINEスタンプ</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_material.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>ホームページ</p></div>
+	  <div class="date"><span class="day">2020.7.16</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>新コーナーを追加しました</h1>
+		<div class="text">
+		<p>「Special」に新コーナーの「素材置き場」を追加しました。<br>
+			動画作成やゲームの生配信等にご利用ください。<br>
+			※ご利用に当たっては注意書きをご確認ください。</p>
+		<br>
+		<br>
+		<a href="special/sp_material/material_jp.html" class="">素材置き場</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_fexl-alpha.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>ゲーム</p></div>
+	  <div class="date"><span class="day">2019.04.01</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>FIGHTING EX LAYERのモバイル版をリリースしました</h1>
+		<div class="text">
+		<p>エイプリルフール？アプリとして「FIGHTING EX LAYER -α」を公開しました。<br>
+		<br>
+		ぜひお試しください。</p>
+        <br>
+        <br>
+		<a href="http://www.arika.co.jp/product/fexl_hp/jp/fexl_jp.html" target="_blank" class="">
+        ダウンロードページ</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_shop.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>グッズ</p></div>
+	  <div class="date"><span class="day">2019.02.14</span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>アリカ公式グッズ販売開始!</h1>
+		<div class="text">
+		<p>アリカ公式グッズの販売を開始しました。<br>
+		ぜひご利用下さい。<br>
+		※ショップによって取扱いアイテムが異なります。</p>
+		<br>
+		<br>
+		<a href="goods/goods_jp.html" class="">グッズ販売</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_tekuteku.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>ゲーム</p></div>
+	  <div class="date"><span class="day"></span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>「てくてくビート」好評配信中!</h1>
+		<div class="text">
+		<p>ポップでキュートなリズムアクションゲーム「てくてくビート」は
+        Appleストアで好評配信中です。<br>
+		ぜひプレイしてみてください。</p>
+        <br>
+        <br>
+        <br>
+		<a href="http://www.arika.co.jp/product/pitapat/index.html" target="_blank" class="">
+        ゲーム紹介ページ</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_fexl_cd.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>音楽</p></div>
+	  <div class="date"><span class="day"></span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>「FIGHTING EX LAYER Soundtracks」の取扱いを開始しました</h1>
+		<div class="text">
+		<p>このCDBOXは「FIGHTING EX LAYER」はもちろん、これまでの『EX』シリーズである
+        「EX (Arcade & Console Game)」「EX2 (Arcade & Console Game)」「EX3 (Console Game)」
+        「FIGHTING LAYER」のBGMも収録した、ファン必携の完全BOXとなっています。</p>
+		<a href="http://arika-game.shop-pro.jp/" target="_blank" class="">購入はこちら</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<div class="card01">
+	<div class="photo"><img src="material/pickup_img/pickup_recruit.jpg" alt=""></div>
+	  <div class="details">
+	  <div class="category"><p>採用情報</p></div>
+	  <div class="date"><span class="day"></span></div>
+	</div><!-- /.details -->
+	<div class="description">
+	  <h1>開発スタッフ募集のお知らせ</h1>
+		<div class="text">
+		<p>現在、下記ゲーム開発スタッフ（正社員）を募集しています。<br>
+		<br>
+		・プログラマー<br>
+		・プランナー<br>
+		・グラフィックデザイナー<br>
+		<br>
+		ゲーム制作に熱意のある方、ご応募をお待ちしております。</p>
+		<a href="recruit/recruit_jp.html" class="">応募の詳細はこちらから</a>
+		</div><!-- /.text -->
+	</div><!-- /.description -->
+</div><!-- /.card01 -->
+
+
+<!-- 横3列になるよう空データを入れる -->
+<div class="card01b"></div>
+<div class="card01b"></div>
+
+</div><!-- /.card_box -->
+
+
+</div><!-- /.main_box -->
+</div><!-- /.inner -->
+</div><!-- /#contents -->
+
+</main>
+
+<!--------------------　フッター（PC）　------------------------------>
+
+<footer>
+<div class="inner">
+	<div id="footermenu">
+	<ul>
+    <li><img src="material/logo_arika.png" width="80" height="21"></li>
+	<li>株式会社アリカ</li>
+    <li><br></li>
+	<li>〒141-0031</li>
+	<li>東京都品川区西五反田7-25-5</li>
+	<li>西五反田7丁目ビル6F</li>
+	</ul>
+
+	<ul>
+	<li><a href="#">Home</a></li>
+    <li><hr class="hr1"></li>
+    <li><a href="notice/notice_jp.html#anchor3">お問い合わせ</a></li>
+	<li><hr class="hr1"></li>
+	<li><br></li>
+	<li><br></li>
+	<li><br></li>
+    <li><a href="index_en.html"><i class="fas fa-globe"></i> English</a></li>
+	</ul>
+    
+	<ul>
+    <li><a href="news/news_jp.html">ニュース</a></li>
+    <li><hr class="hr1"></li>
+	<li><a href="game/game_jp.html">開発実績</a></li>
+    <li><hr class="hr1"></li>	
+    <li><a href="company/company_jp.html">会社情報</a></li>
+    <li><hr class="hr1"></li>
+	<li><a href="recruit/recruit_jp.html">採用情報</a></li>
+	</ul>
+
+	<ul>
+	<li><a href="goods/goods_jp.html">グッズ販売</a></li>
+	<li><hr class="hr1"></li>
+	<li><a href="special/sp_wallpaper/wallpaper_jp.html">Special</a></li>
+    </ul>
+	</div><!--/footermenu-->
+</div><!-- /inner -->
+
+<div id="copyright">
+©ARIKA CO.,LTD. ALL RIGHTS RESERVED.
+</div>
+
+</footer>
+
+
+<!--------------------　フッター（SP）　------------------------------>
+
+
+
+<!--------------------　トップページへ戻るボタン　-------------------->
+<p class="pagetop"><a href="#header"><i class="fas fa-angle-double-up fa-2x"></i></a></p>
+
+</div><!-- /.wrap -->
+</div><!-- /#container -->
+
+</body>
+</html>

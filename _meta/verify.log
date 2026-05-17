@@ -1,121 +1,121 @@
-2026-05-16 04:57:00 URL:http://localhost:65343/ [6386/6386] -> "localhost:65343/index.html.tmp.tmp" [1]
-http://localhost:65343/robots.txt:
-2026-05-16 04:57:00 ERROR 404: File not found.
-2026-05-16 04:57:00 URL:http://localhost:65343/data/product.css [164/164] -> "localhost:65343/data/product.css.tmp.tmp" [1]
-2026-05-16 04:57:00 URL:http://localhost:65343/data/main.css [196/196] -> "localhost:65343/data/main.css.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/title.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/ [6386/6386] -> "localhost:49276/index.html.tmp.tmp" [1]
+http://localhost:49276/robots.txt:
+2026-05-16 22:57:46 ERROR 404: File not found.
+2026-05-16 22:57:46 URL:http://localhost:49276/data/product.css [164/164] -> "localhost:49276/data/product.css.tmp.tmp" [1]
+2026-05-16 22:57:46 URL:http://localhost:49276/data/main.css [196/196] -> "localhost:49276/data/main.css.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/title.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara.html [9057/9057] -> "localhost:65343/chara.html.tmp.tmp" [1]
-http://localhost:65343/ron/img/0_chara.gif:
+2026-05-16 22:57:46 URL:http://localhost:49276/chara.html [9057/9057] -> "localhost:49276/chara.html.tmp.tmp" [1]
+http://localhost:49276/ron/img/0_chara.gif:
 Remote file does not exist -- broken link!!!
-2026-05-16 04:57:00 URL: http://localhost:65343/img/ph01.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/img/ph01.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/img/ph02.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/img/ph02.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/img/ph03.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/img/ph03.gif 200 OK
 unlink: No such file or directory
-http://localhost:65343/ron/img/0_return.gif:
+http://localhost:49276/ron/img/0_return.gif:
 Remote file does not exist -- broken link!!!
-2026-05-16 04:57:00 URL:http://localhost:65343/index.html [6386/6386] -> "localhost:65343/index.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_ryu.html [25173/25173] -> "localhost:65343/chara_ryu.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_ryu.GIF 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/index.html [6386/6386] -> "localhost:49276/index.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_ryu.html [25173/25173] -> "localhost:49276/chara_ryu.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_ryu.GIF 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_ken.html [24790/24790] -> "localhost:65343/chara_ken.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_ken.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_ken.html [24790/24790] -> "localhost:49276/chara_ken.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_ken.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_chunli.html [25186/25186] -> "localhost:65343/chara_chunli.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_chunli.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_chunli.html [25186/25186] -> "localhost:49276/chara_chunli.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_chunli.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_guil.html [25425/25425] -> "localhost:65343/chara_guil.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_guile.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_guil.html [25425/25425] -> "localhost:49276/chara_guil.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_guile.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_sakura.html [26219/26219] -> "localhost:65343/chara_sakura.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_sakura.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_sakura.html [26219/26219] -> "localhost:49276/chara_sakura.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_sakura.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_hokuto.html [27219/27219] -> "localhost:65343/chara_hokuto.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_hokuto.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_hokuto.html [27219/27219] -> "localhost:49276/chara_hokuto.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_hokuto.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_zangief.html [27245/27245] -> "localhost:65343/chara_zangief.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_zangief.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_zangief.html [27245/27245] -> "localhost:49276/chara_zangief.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_zangief.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_kairi.html [26310/26310] -> "localhost:65343/chara_kairi.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_kairi.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_kairi.html [26310/26310] -> "localhost:49276/chara_kairi.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_kairi.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_aren.html [24815/24815] -> "localhost:65343/chara_aren.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_are.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_aren.html [24815/24815] -> "localhost:49276/chara_aren.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_are.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_burea.html [25994/25994] -> "localhost:65343/chara_burea.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_burea.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_burea.html [25994/25994] -> "localhost:49276/chara_burea.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_burea.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_darushim.html [34899/34899] -> "localhost:65343/chara_darushim.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_darushim.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_darushim.html [34899/34899] -> "localhost:49276/chara_darushim.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_darushim.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_dark.html [25670/25670] -> "localhost:65343/chara_dark.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_dark.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_dark.html [25670/25670] -> "localhost:49276/chara_dark.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_dark.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_sukaro.html [30173/30173] -> "localhost:65343/chara_sukaro.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_sukaro.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_sukaro.html [30173/30173] -> "localhost:49276/chara_sukaro.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_sukaro.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_daran.html [26039/26039] -> "localhost:65343/chara_daran.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_daran.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_daran.html [26039/26039] -> "localhost:49276/chara_daran.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_daran.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_purumu.html [27823/27823] -> "localhost:65343/chara_purumu.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_purumu.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_purumu.html [27823/27823] -> "localhost:49276/chara_purumu.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_purumu.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_jack.html [26526/26526] -> "localhost:65343/chara_jack.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_jack.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_jack.html [26526/26526] -> "localhost:49276/chara_jack.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_jack.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_vega.html [27814/27814] -> "localhost:65343/chara_vega.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_vega.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_vega.html [27814/27814] -> "localhost:49276/chara_vega.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_vega.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_garuda.html [28638/28638] -> "localhost:65343/chara_garuda.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_garuda.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_garuda.html [28638/28638] -> "localhost:49276/chara_garuda.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_garuda.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_goyki.html [33745/33745] -> "localhost:65343/chara_goyki.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_gouki.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_goyki.html [33745/33745] -> "localhost:49276/chara_goyki.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_gouki.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_arufa.html [27326/27326] -> "localhost:65343/chara_arufa.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_arufa.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_arufa.html [27326/27326] -> "localhost:49276/chara_arufa.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_arufa.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_beta.html [26960/26960] -> "localhost:65343/chara_beta.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_beta.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_beta.html [26960/26960] -> "localhost:49276/chara_beta.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_beta.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_ura_hokuto.html [28064/28064] -> "localhost:65343/chara_ura_hokuto.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_ura_hokuto.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_ura_hokuto.html [28064/28064] -> "localhost:49276/chara_ura_hokuto.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_ura_hokuto.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL:http://localhost:65343/chara_ura_ryu.html [30460/30460] -> "localhost:65343/chara_ura_ryu.html.tmp.tmp" [1]
-2026-05-16 04:57:00 URL: http://localhost:65343/img/face_ura_ryu.gif 200 OK
+2026-05-16 22:57:46 URL:http://localhost:49276/chara_ura_ryu.html [30460/30460] -> "localhost:49276/chara_ura_ryu.html.tmp.tmp" [1]
+2026-05-16 22:57:46 URL: http://localhost:49276/img/face_ura_ryu.gif 200 OK
 unlink: No such file or directory
-http://localhost:65343/arika/expa_back.gif:
+http://localhost:49276/arika/expa_back.gif:
 Remote file does not exist -- broken link!!!
-2026-05-16 04:57:00 URL: http://localhost:65343/images/punch.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/punch.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/kick.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/kick.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/3.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/3.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/7.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/7.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/plus.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/plus.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/5.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/5.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/4.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/4.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/6.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/6.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/1.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/1.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/2.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/2.gif 200 OK
 unlink: No such file or directory
-2026-05-16 04:57:00 URL: http://localhost:65343/images/8.gif 200 OK
+2026-05-16 22:57:46 URL: http://localhost:49276/images/8.gif 200 OK
 unlink: No such file or directory
 Found 3 broken links.
 
-http://localhost:65343/arika/expa_back.gif
-http://localhost:65343/ron/img/0_return.gif
-http://localhost:65343/ron/img/0_chara.gif
+http://localhost:49276/arika/expa_back.gif
+http://localhost:49276/ron/img/0_chara.gif
+http://localhost:49276/ron/img/0_return.gif
 
-FINISHED --2026-05-16 04:57:00--
-Total wall clock time: 0.06s
-Downloaded: 28 files, 639K in 0s (6.49 GB/s)
+FINISHED --2026-05-16 22:57:46--
+Total wall clock time: 0.05s
+Downloaded: 28 files, 639K in 0s (6.56 GB/s)
